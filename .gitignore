@@ -1,0 +1,11 @@
+# 個人データ(出生データ・占い履歴・霊視の記録)は ~/.pixel-tarot/ と ~/.hoshiyomi/ にあるのでリポジトリには入らないが、念のため
+.pixel-tarot/
+.hoshiyomi/
+*.db
+*.jsonl
+# 生成物(tarot.py で作り直せる。README 用の一覧画像は docs/ に置く)
+out/
+# 作業の残り
+__pycache__/
+*.pyc
+*.bak-*

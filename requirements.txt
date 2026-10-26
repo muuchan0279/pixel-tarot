@@ -1,0 +1,6 @@
+PyQt6>=6.5
+Pillow>=10
+numpy>=1.24
+# ホロスコープ✕タロット を使うときだけ(HOSHIYOMI LOG の天体計算)
+skyfield>=1.48
+skyfield-data>=6
